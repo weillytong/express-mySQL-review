@@ -4,7 +4,7 @@
   "description": "Review for Express and mySQL",
   "main": "index.js",
   "scripts": {
-
+    "testDB": "nodemon ./database/index.js"
   },
   "repository": {
     "type": "git",
