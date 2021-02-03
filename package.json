@@ -1,0 +1,30 @@
+{
+  "name": "express-mySQL-review",
+  "version": "1.0.0",
+  "description": "Review for Express and mySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanlim035/express-mySQL-review.git"
+  },
+  "keywords": [],
+  "author": "Jonathan Lim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanlim035/express-mySQL-review/issues"
+  },
+  "homepage": "https://github.com/jonathanlim035/express-mySQL-review#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
