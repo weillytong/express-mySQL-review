@@ -10,7 +10,7 @@
    - Create a schema in `database/schema.sql` to describe our "Games" table
      - Should have "name", "rating", and "description"
    - Create a seeding function in `seed.js`
-     - Seed the database
+     - Seed the database with at least five entries
      - Confirm that the seed worked by checking the MySQL shell
    - Create dbHelper functions in `database/dbHelpers.js`
 3. Server:
