@@ -7,7 +7,7 @@
    - Create a DB called "gamesDB" in MySQL
    - Establish a connection in database/index.js
    - Create a schema in database/schema.sql to describe our "Games" table
-     - Should have "name", "rating", and "___"
+     - Should have "name", "rating", and "description"
    - Create a seeding function in seed.js
      - Seed the database
      - Confirm that the seed worked by checking the MySQL shell
