@@ -1,6 +1,7 @@
 const controllers = {
   get: () => {},
   post: () => {},
+  put: () => {},
   delete: () => {}
 };
 

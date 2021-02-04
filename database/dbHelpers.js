@@ -1,6 +1,7 @@
 const dbHelpers = {
   get: () => {},
   post: () => {},
+  put: () => {},
   delete: () => {}
 };
 
