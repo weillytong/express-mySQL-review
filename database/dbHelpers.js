@@ -21,6 +21,18 @@ const dbHelpers = {
       }
     });
   },
+  put: (req, callback) => {
+    let { name, rating, description } = req.body;
+    let queryString = `UPDATE Games SET name="${name}", rating=${rating}, description="${description}" WHERE id=${req.params.id}`;
+
+    db.query(queryString, (err, results) => {
+      if (err) {
+        callback(err);
+      } else {
+        callback(null, err);
+      }
+    });
+  },
   delete: (req, callback) => {
     let id = req.params.id;
     let queryString = `DELETE FROM Games WHERE id=${id}`;

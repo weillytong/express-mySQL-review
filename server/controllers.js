@@ -19,6 +19,15 @@ const controllers = {
       }
     });
   },
+  put: (req, res) => {
+    dbHelpers.put(req, (err, results) => {
+      if (err) {
+        res.status(400).send(err);
+      } else {
+        res.status(200).send(results);
+      }
+    });
+  },
   delete: (req, res) => {
     dbHelpers.delete(req, (err, results) => {
       if (err) {

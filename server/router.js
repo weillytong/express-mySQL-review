@@ -9,5 +9,6 @@ router
 router
   .route('/game/:id')
   .delete(controllers.delete)
+  .put(controllers.put)
 
 module.exports = router;
