@@ -1,3 +1,5 @@
+const db = require('./index.js');
+
 const dbHelpers = {
   get: () => {},
   post: () => {},
