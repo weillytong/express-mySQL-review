@@ -1,5 +1,5 @@
 const db = require('./index.js');
-
+// *** Populate our database
 // *** seed is entries into database
 let seed = [
   {
@@ -48,4 +48,7 @@ const seedFunc = () => {
 
 seedFunc();
 
-//*** need to run 'node seed.js' in our terminal when we're cd into database file so we can run the seedFunc function in our terminal
+
+
+//*** we need to run 'node seed.js' in our terminal when we're cd into database file so we can actually run the invoked seedFunc function in our terminal
+//*** the reason why we don't include it in our database index.js file is because we don't want this seedFunc to run everytime we run this test our DB

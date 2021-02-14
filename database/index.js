@@ -2,7 +2,7 @@ const mysql = require('mysql');
 const database = 'gamesDB';
 
 const connection = mysql.createConnection({
-  username: 'root',
+  user: 'root',
   password: 'mysql',
   database: database
 });
